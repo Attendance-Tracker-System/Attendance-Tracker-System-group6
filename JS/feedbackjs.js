@@ -31,4 +31,7 @@
     }
     
     window.onload = populateTable;
-    
+       function logout() {
+        localStorage.clear();
+        window.location.replace('loginPage.html');
+    }
