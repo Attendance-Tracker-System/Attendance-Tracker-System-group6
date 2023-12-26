@@ -1,7 +1,4 @@
 
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     // Check if there is no data stored before displaying the initial load alert
     if (!localStorage.getItem('user_')) {
@@ -56,10 +53,10 @@ function isValidEmail(email) {
 }
 
 
-/*function isValidPassword(password) {
+function isValidPassword(password) {
     // Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one digit
     return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(password);
-}*/
+}
 
 
 function isValidExperience(experience) {
